@@ -11,6 +11,8 @@ namespace BookStore_API.Contracts
 
         Task<T> FindById(int id);
 
+        Task<bool> Exists(int id);
+
         Task<bool> Create(T entity);
         Task<bool> Update(T entity);
         Task<bool> Delete(T entity);
