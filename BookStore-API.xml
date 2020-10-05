@@ -69,7 +69,7 @@
             <param name="bookDTO"></param>
             <returns></returns>
         </member>
-        <member name="M:BookStore_API.Controllers.BooksController.Update(System.Int32,BookStore_API.DTOs.BookDTO)">
+        <member name="M:BookStore_API.Controllers.BooksController.Update(System.Int32,BookStore_API.DTOs.BookUpdateDTO)">
             <summary>
             Updates a Book
             </summary>
